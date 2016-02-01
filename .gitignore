@@ -1,7 +1,0 @@
-NES/obj/
-NES/bin/
-.vs/
-NES/nes.csproj.user
-packages/
-codegen/.ntvs_analysis.dat
-codegen/obj/
