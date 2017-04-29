@@ -1,10 +1,8 @@
-rootProject.name = 'nesemulator'
+rootProject.name = 'ts-seed'
 
-include 'codegen'
-project(':codegen').projectDir = file('packages/node_modules/codegen')
-include 'nes'
-project(':nes').projectDir = file('packages/node_modules/nes')
+include 'moduleA'
+project(':moduleA').projectDir = file('packages/moduleA')
 include 'webapp'
-project(':webapp').projectDir = file('packages/node_modules/webapp')
+project(':webapp').projectDir = file('packages/webapp')
 
 
