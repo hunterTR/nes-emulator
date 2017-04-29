@@ -1,3 +1,3 @@
-export function lofasz(): string {
-    return 'lofasz';
+export function salala(): string {
+    return 'salala';
 }

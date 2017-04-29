@@ -1,0 +1,5 @@
+{
+  "name": "moduleA",
+  "version": "0.0.0-PLACEHOLDER",
+  "main":"dist/app.js"
+}

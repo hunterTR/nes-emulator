@@ -90,7 +90,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_0__;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var moduleA_1 = __webpack_require__(0);
-console.log(moduleA_1.frappe());
+console.log(moduleA_1.salala());
 
 
 /***/ })

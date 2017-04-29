@@ -83,10 +83,10 @@ return /******/ (function(modules) { // webpackBootstrap
 "use strict";
 
 Object.defineProperty(exports, "__esModule", { value: true });
-function frappe() {
-    return 'frappe';
+function salala() {
+    return 'salala';
 }
-exports.frappe = frappe;
+exports.salala = salala;
 
 
 /***/ }),
@@ -115,7 +115,7 @@ exports.Alma = Alma;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var bapp_1 = __webpack_require__(0);
-exports.frappe = bapp_1.frappe;
+exports.salala = bapp_1.salala;
 var file2_1 = __webpack_require__(1);
 exports.Alma = file2_1.Alma;
 

@@ -18,9 +18,5 @@
       "ES2015.Promise",
       "DOM"
     ]
-  },
-  "include": [
-    "src/**/*",
-    "index.d.ts"
-  ]
+  }
 }
