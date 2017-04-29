@@ -1,4 +1,8 @@
 rootProject.name = 'ts-seed'
 
+include 'moduleA'
+project(':moduleA').projectDir = file('packages/moduleA')
+include 'webapp'
+project(':webapp').projectDir = file('packages/webapp')
 
 

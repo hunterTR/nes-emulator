@@ -6,7 +6,11 @@
     "noImplicitAny": true,
     "outDir": "build",
     "target": "ES5",
-   
+    "types": [
+    ],
+    "typeRoots": [
+    ],
+
     "paths": {
       "moduleA": ["../moduleA"]
     },

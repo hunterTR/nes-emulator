@@ -1,0 +1,5 @@
+task run(type: NodeTask) {
+    dependsOn 'build'
+
+    script = file("dist/app.js")
+}
