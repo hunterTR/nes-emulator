@@ -1,3 +1,3 @@
-import {lofasz} from 'moduleA';
+import {hello} from 'moduleA';
 
-console.log(lofasz());
+console.log(hello());
