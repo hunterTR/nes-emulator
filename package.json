@@ -3,6 +3,8 @@
   "devDependencies": {
     "moduleA": "file:./packages/moduleA",
     "consoleapp": "file:./packages/consoleapp",
+
+    "rm-local-modules": "^0.0.0",
     "@types/jquery": "2.0.41",
     "@types/node": "7.0.12",
     "source-map-loader": "0.2.1",
@@ -13,6 +15,9 @@
   },
 
   "scripts": {
-    "run": "node $NODE_DEBUG_OPTION packages/consoleapp/dist/app.js"
+    "consoleapp": "node $NODE_DEBUG_OPTION node_modules/consoleapp/build/app.js",
+    "build": "npm run build:moduleA && npm run build:consoleapp && rm-local-modules && npm install",
+    "build:consoleapp": "cd packages/consoleapp && webpack",
+    "build:moduleA": "cd packages/moduleA && webpack"
   }
 }

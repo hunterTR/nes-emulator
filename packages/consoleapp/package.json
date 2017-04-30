@@ -1,8 +1,8 @@
 {
   "name": "consoleapp",
   "version": "0.0.0-PLACEHOLDER",
-  "main":"dist/app.js",
-  "bin": {
-    "consoleapp": "./bin/consoleapp"
+  "main":"build/app.js",
+  "peerDependencies": {
+    "moduleA": "0.0.0-PLACEHOLDER"
   }
 }
