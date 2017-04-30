@@ -1,19 +1,17 @@
 {
-
   "devDependencies": {
-    "moduleA": "file:./packages/moduleA",
-    "consoleapp": "file:./packages/consoleapp",
-
-    "rm-local-modules": "^0.0.0",
     "@types/jquery": "2.0.41",
+    "@types/lodash": "^4.14.63",
     "@types/node": "7.0.12",
+    "consoleapp": "file:./packages/consoleapp",
+    "moduleA": "file:./packages/moduleA",
+    "rm-local-modules": "^0.0.0",
     "source-map-loader": "0.2.1",
     "ts-loader": "^2.0.3",
     "tslint": "5.0.0",
     "typescript": "2.2.2",
     "webpack": "2.3.3"
   },
-
   "scripts": {
     "consoleapp": "node $NODE_DEBUG_OPTION node_modules/consoleapp/build/app.js",
     "build": "npm run build:moduleA && npm run build:consoleapp && rm-local-modules && npm install",

@@ -7,8 +7,10 @@
     "outDir": "build",
     "target": "ES5",
     "types": [
+      "lodash"
     ],
     "typeRoots": [
+      "../../node_modules/@types"
     ],
 
     "paths": {

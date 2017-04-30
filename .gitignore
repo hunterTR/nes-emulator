@@ -5,3 +5,4 @@ node_modules
 packages/node_modules/**/node_modules
 .idea
 nes/src/main/web/roms
+npm-debug.log
